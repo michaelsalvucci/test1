@@ -1,0 +1,9 @@
+[submodule "plugins/ioMenuPlugin"]
+	path = plugins/ioMenuPlugin
+	url = git://github.com/weaverryan/ioMenuPlugin.git
+[submodule "plugins/npAssetsOptimizerPlugin"]
+	path = plugins/npAssetsOptimizerPlugin
+	url = git://github.com/n1k0/npAssetsOptimizerPlugin.git
+[submodule "plugins/ioEditableContentPlugin"]
+	path = plugins/ioEditableContentPlugin
+	url = git://github.com/weaverryan/ioEditableContentPlugin.git
