@@ -1,0 +1,26 @@
+msCategory:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    name: string(255)
+
+msBlog:
+  columns:
+    title:
+      type: string(255)
+      primary: false
+      autoincrement: true
+
+ioBasicPage:
+  inheritance:
+    extends: ioPage
+    type: column_aggregation
+    keyField: type
+    keyValue: basic
+  columns:
+    sidebar_content: clob
+  actAs:
+    Taggable: ~
+

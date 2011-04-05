@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+#all:
+
+all:
+  io_page:
+    ioBasicPage:
+      display:
+        "General":   [title, slug]
+        "Metadata":  [meta_description, meta_keywords]
+    defaults:
+      title_pattern:       '%title%'
+      keyword_pattern:     '%meta_keywords%'
+      description_pattern: '%meta_description%'
+      content_loader:      ioPageContentLoader
+    ioBasicPage:
+      title_pattern:       'Iostudio.com | `%title`'
+
