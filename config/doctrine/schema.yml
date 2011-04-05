@@ -5,7 +5,3 @@ msCategory:
       primary: true
       autoincrement: true
     name: string(255)
-    type:
-      type: enum
-      values: ['Business', 'Life', 'Sports']
-      notnull: false
