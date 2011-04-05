@@ -34,5 +34,5 @@ all:
     # Enable the database manager
     use_database:           true
 
-    enabled_modules:      [default, sfGuardAuth]
+    enabled_modules:      [default, sfGuardAuth, home, category]
 

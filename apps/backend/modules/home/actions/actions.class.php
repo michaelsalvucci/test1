@@ -17,16 +17,8 @@ class homeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-
-    $this->blog = new msBlog();
-
-    $menu = new ioMenuItem('My menu');
-    $menu->addChild('Home Page', '@homepage');
-#    $menu->addChild('comments', '@comments');
-    $menu->addChild('Business', '@homepage');
-    $menu->addChild('Life', '@homepage');
-    $menu->addChild('Sports', '@homepage');
-    echo $menu->render();
+     $this->blog = new msBlog();
+     $this->blog['title'] = 'homep';
 
 #    $this->forward('default', 'module');
   }
