@@ -12,5 +12,7 @@ class ProjectConfiguration extends sfProjectConfiguration
     $this->enablePlugins('ioEditableContentPlugin');
     $this->enablePlugins('ioMenuPlugin');
     $this->enablePlugins('npAssetsOptimizerPlugin');
+    $this->enablePlugins('ioPagePlugin');
+    $this->enablePlugins('ioBlogPlugin');
   }
 }

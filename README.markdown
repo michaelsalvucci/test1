@@ -28,4 +28,4 @@ cp config/databases.yml.template config/databases.yml
 # When you're ready to optimize assets, do this:
 php symfony optimize:assets frontend --type=all
 
-
+.......left off reading ioPagePlugin.......>>>>>>
