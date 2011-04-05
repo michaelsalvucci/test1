@@ -8,6 +8,8 @@ git submodule add git://github.com/n1k0/npAssetsOptimizerPlugin.git plugins/npAs
 git submodule add git://github.com/weaverryan/ioEditableContentPlugin.git plugins/ioEditableContentPlugin
 git submodule add git://github.com/iostudio/ioPagePlugin.git plugins/ioPagePlugin
 git submodule add git://github.com/weaverryan/ioBlogPlugin.git plugins/ioBlogPlugin
+git submodule add git://github.com/fizyk/vjCommentPlugin.git plugins/vjCommentPlugin
+git submodule add git://github.com/annismckenzie/sfDoctrineActAsTaggablePlugin.git plugins/sfDoctrineActAsTaggablePlugin
 
 # People who can edit the plugins would use something like this:
 # git submodule add git://git@github.com:iostudio/ioPagePlugin.git

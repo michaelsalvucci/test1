@@ -14,5 +14,20 @@ class ProjectConfiguration extends sfProjectConfiguration
     $this->enablePlugins('npAssetsOptimizerPlugin');
     $this->enablePlugins('ioPagePlugin');
     $this->enablePlugins('ioBlogPlugin');
+    $this->enablePlugins('sfDoctrineActAsTaggablePlugin');
+    $this->enablePlugins('vjCommentPlugin');
+/*
+    $this->enablePlugins(array(
+      'sfDoctrinePlugin',
+      'sfDoctrineGuardPlugin',
+      'ioEditableContentPlugin',
+      'ioMenuPlugin',
+      'npAssetsOptimizerPlugin',
+      'ioPagePlugin',
+      'ioBlogPlugin',
+      'sfDoctrineActAsTaggablePlugin',
+      'vjCommentPlugin',
+    ));
+*/
   }
 }

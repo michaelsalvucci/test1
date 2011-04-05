@@ -15,12 +15,38 @@ msBlog:
 
 ioBasicPage:
   inheritance:
-    extends: ioPage
-    type: column_aggregation
-    keyField: type
-    keyValue: basic
+    extends:  ioPage
+#    type:     column_aggregation
+    type:    concrete
+#    keyField: type
+#    keyValue: basic
   columns:
+    id:
+      type:                  integer(4)
+      primary:               true
+      autoincrement:         true
+      unsigned:              true
+    image_filename:          string(255)
+    image_caption:           string(255)
+    expires_at:
+      type:                  timestamp
+      default:               null
+      notnull:               false
     sidebar_content: clob
   actAs:
     Taggable: ~
+    Timestampable:
+    Sluggable:
+      length:                100
+#  relations:
+#    HeroProduct:
+#      type:                  one
+#      foreignType:           many
+#      class:                 kimProduct
+#      foreignAlias:          HeroPages
+#      local:                 hero_product_id
+#      onDelete:              set null
+
+
+
 

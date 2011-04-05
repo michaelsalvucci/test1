@@ -13,3 +13,9 @@
 [submodule "plugins/ioBlogPlugin"]
 	path = plugins/ioBlogPlugin
 	url = git://github.com/weaverryan/ioBlogPlugin.git
+[submodule "plugins/vjCommentPlugin"]
+	path = plugins/vjCommentPlugin
+	url = git://github.com/fizyk/vjCommentPlugin.git
+[submodule "plugins/sfDoctrineActAsTaggablePlugin"]
+	path = plugins/sfDoctrineActAsTaggablePlugin
+	url = git://github.com/annismckenzie/sfDoctrineActAsTaggablePlugin.git
