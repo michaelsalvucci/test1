@@ -7,3 +7,9 @@
 [submodule "plugins/ioEditableContentPlugin"]
 	path = plugins/ioEditableContentPlugin
 	url = git://github.com/weaverryan/ioEditableContentPlugin.git
+[submodule "plugins/ioPagePlugin"]
+	path = plugins/ioPagePlugin
+	url = git://github.com/iostudio/ioPagePlugin.git
+[submodule "plugins/ioBlogPlugin"]
+	path = plugins/ioBlogPlugin
+	url = git://github.com/weaverryan/ioBlogPlugin.git
