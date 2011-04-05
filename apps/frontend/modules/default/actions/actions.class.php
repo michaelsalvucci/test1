@@ -19,4 +19,9 @@ class defaultActions extends sfActions
   {
     $this->forward('default', 'module');
   }
+
+  public function executeError404(sfWebRequest $request)
+  {
+    $this->forward('default', 'error404');
+  }
 }
