@@ -22,6 +22,5 @@ class defaultActions extends sfActions
 
   public function executeError404(sfWebRequest $request)
   {
-    $this->forward('default', 'error404');
   }
 }

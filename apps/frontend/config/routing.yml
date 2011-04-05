@@ -15,3 +15,7 @@ homepage:
 
 #default:
 #  url:   /:module/:action/*
+
+error404:
+  url:   /*
+  param: { module: default, action: error404 }
