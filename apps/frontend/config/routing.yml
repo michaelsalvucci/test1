@@ -7,6 +7,29 @@ homepage:
 #  param: { module: default, action: index }
   param: { module: home, action: index }
 
+pages:
+  url:   /pages/:slug
+  class: sfDoctrineRoute
+  param:
+    module:  myPageAction
+    action:  show
+  options:
+    model:   ioPage
+    type:    object
+
+about:
+  url:   /about
+  class: sfDoctrineRoute
+  param:
+    module:  main
+    action:  about
+    internal_slug:  about_us
+  options:
+    model:  ioPage
+    type:   object
+    method: fetchFromInternalSlug
+
+
 # generic rules
 # please, remove them by adding more specific rules
 #default_index:

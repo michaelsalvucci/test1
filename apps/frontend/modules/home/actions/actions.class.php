@@ -26,6 +26,7 @@ class homeActions extends sfActions
     $menu->addChild('Business', '@homepage');
     $menu->addChild('Life', '@homepage');
     $menu->addChild('Sports', '@homepage');
+    $menu->addChild('About', '@about');
     echo $menu->render();
 
 #    $this->forward('default', 'module');

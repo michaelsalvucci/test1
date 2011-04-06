@@ -6,15 +6,14 @@
 
 all:
   io_page:
-    ioBasicPage:
-      display:
-        "General":   [title, slug]
-        "Metadata":  [meta_description, meta_keywords]
     defaults:
       title_pattern:       '%title%'
       keyword_pattern:     '%meta_keywords%'
       description_pattern: '%meta_description%'
       content_loader:      ioPageContentLoader
     ioBasicPage:
+      display:
+        "General":   [title, slug]
+        "Metadata":  [meta_description, meta_keywords]
       title_pattern:       'Iostudio.com | `%title`'
 
